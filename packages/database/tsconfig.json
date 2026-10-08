@@ -3,5 +3,5 @@
   "compilerOptions": {
     "types": ["bun", "node"]
   },
-  "include": ["src/**/*.ts", "prisma7.config.ts"]
+  "include": ["src/**/*.ts", "prisma/seed.ts", "prisma7.config.ts"]
 }

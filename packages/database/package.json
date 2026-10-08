@@ -11,10 +11,12 @@
     "postinstall": "prisma generate",
     "migrate:dev": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
+    "seed": "prisma db seed",
     "studio": "prisma studio",
     "typecheck": "prisma generate && tsc --noEmit"
   },
   "dependencies": {
+    "@playernguyen/core": "workspace:*",
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
     "pg": "^8.23.1"

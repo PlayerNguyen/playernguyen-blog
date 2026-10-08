@@ -13,7 +13,9 @@
       "name": "@playernguyen/web",
       "version": "0.1.0",
       "dependencies": {
+        "@next/env": "^16.4.0",
         "@playernguyen/core": "workspace:*",
+        "@playernguyen/database": "workspace:*",
         "next": "16.4.0",
         "react": "19.3.0",
         "react-dom": "19.3.0",
@@ -39,6 +41,7 @@
       "name": "@playernguyen/database",
       "version": "0.1.0",
       "dependencies": {
+        "@playernguyen/core": "workspace:*",
         "@prisma/adapter-pg": "^7.10.0",
         "@prisma/client": "^7.10.0",
         "pg": "^8.23.1",

@@ -11,7 +11,9 @@
     "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
+    "@next/env": "^16.4.0",
     "@playernguyen/core": "workspace:*",
+    "@playernguyen/database": "workspace:*",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
