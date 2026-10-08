@@ -1,4 +1,17 @@
 /**
+ * A read-only collection of raw environment values.
+ *
+ * Kept framework-agnostic so any runtime (Node.js, Bun, edge) can supply its
+ * own source, such as `process.env`.
+ *
+ * @example
+ * ```ts
+ * const source: EnvironmentSource = { NODE_ENV: "production" };
+ * ```
+ */
+export type EnvironmentSource = Readonly<Record<string, string | undefined>>;
+
+/**
  * The runtime environments recognised by the application.
  *
  * @example
